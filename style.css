@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+body{
+    background-color: rgb(188, 178, 247);
+}
+.stop-watch{
+
+    max-width: 700px;
+    height: 300px;
+    margin: auto;
+    margin-top: 150px;
+    padding: 50px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/clock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 10px  rgb(105, 103, 103);
+
+}
+.stop-watch h1{
+
+    font-size: 60px;
+}
+
+.buttons > img{
+
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
